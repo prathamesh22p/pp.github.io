@@ -1,0 +1,375 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: black;
+}
+main{
+	background-color: black;
+	color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0 auto;
+	background-color: white;
+	width: 100%;
+}
+.card2 p{
+	color: black;
+}
+                                             /* Dark Mode */
+.dark{
+	background-color: black !important;
+	color: white !important;
+}
+
+.toplink{
+	position: fixed;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	bottom:0;
+    right:0;
+	border: 2px solid yellow;
+	box-shadow: 0px 0px 6px 2px yellow;
+}
+ .btn .fas{
+	color:yellow !important;
+}
+/* <-- NAVBAR --> */
+nav{
+	width: 100%;
+	display: flex;
+    background-color: black;
+}
+
+nav p{
+    font-size: 2.3rem;
+    color: white;
+    padding: 2rem 0 2rem;
+	justify-content: flex-start;
+	align-items: flex-start;
+    margin-left: 10rem;
+    font-weight: 500;
+	/* border: 1px solid red; */
+}
+/* .name{
+	width: 30%;
+	flex-direction:row;
+	justify-content: flex-start;
+	align-items: flex-start;	
+} */
+.icon{
+	display: flex;
+	width: 70%;
+	margin-left: 28rem;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid red; */
+
+}
+.anchor1{
+	text-decoration: none;
+}
+.paragraph:hover{
+	opacity: 0.5;
+}
+#fav{
+	/* height: 7rem; */
+	color: white;
+}
+.btn1{
+	background: transparent;
+	border: none;
+}
+@media(max-width: 800px){
+	nav p{
+		margin-left: 6rem;
+	}
+	.icon{
+		margin-left: 14rem;
+	}
+}
+@media(max-width: 600px){
+	nav p{
+		margin-left: 3rem;
+	}
+	.icon{
+		margin-left: 8rem;
+	}
+}
+
+                                              /* cards */
+
+.mycontainer{
+	/* border: 1px solid red; */
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	/* margin: 0 auto; */
+	margin-bottom: 3rem;
+}
+.div1{
+	padding-left: 2rem;
+	/* border: 1px solid grey; */
+}
+.intro{
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.paragraph{
+	border: 1px solid grey;
+	font-weight: 500;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+figure{
+	padding: 0rem;
+	border: 1px solid grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* margin-bottom: 0 !important; */
+}
+.img10{
+	width: 390px;
+	min-height: 250px;
+}
+.row1{
+	display: flex;
+	justify-content: space-between;
+}
+
+@media(max-width: 577px){
+	.card-img-top{
+		padding: 1rem;
+	}
+	.paragraph{
+		text-align: center;
+		font-weight: 500;
+		margin-bottom: 1rem;
+	}
+	.row{
+		padding: 2rem;
+	}
+	.img10{
+		width: 450px;
+		min-height: 228px;
+	}
+	.intro{
+		text-align: center;
+	}
+	.box-3 p{
+		margin-top: .7rem;
+	}
+}
+
+
+
+                                             /* CONTAINER 3*/
+.mycontainer3{
+	padding-top: 4rem;
+	margin-bottom: 4rem;
+}
+.row3{
+	padding-left: 11rem;
+	padding-right: 3rem;
+}
+.container-h1{
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 2.4rem;
+}
+.dev{
+	font-size: 4rem;
+	font-weight: 500;
+	font-family: 'Otomanopee One', sans-serif;
+
+}
+.box-2 img{
+	height: 18rem;
+	width: 16rem;
+	border-radius: 50%;
+}
+@media(max-width:540px){
+	.container-h1{
+		font-size: 1.5rem;
+	}
+	.dev{
+		font-size: 1rem;
+	}
+	.row3{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.row2{
+		padding-left: 0rem;
+		padding-right: 1rem;
+	}
+}
+.box-1{
+	width: 60%;
+	padding-top: 7rem;
+	padding-left: 4rem;
+	/* border: 1px solid red; */
+}
+.box-2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 40%;
+	/* border: 1px solid red; */
+}
+.box-2 img{
+	height: 20rem;
+	width: 18rem;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width: 992px){	
+	.box-2 img{
+		height: 17rem;
+		width: 15rem;
+		border-radius: 50%;
+	}
+	.box-1{
+		order: 2;
+		text-align: center;
+		padding-top: 3rem;
+		}
+	.box-2{
+		order: 1;
+		}
+}
+
+                                            /* heading project */
+
+.projectpara{
+	margin-top: 3rem;
+	text-align: center;
+}
+.line{
+	margin-left: 40%;
+	margin-bottom: 2rem;
+	width: 20%;
+	height: 7px !important;
+	color: yellow;
+}
+
+                                             /* container-2 */
+
+.mycontainer2{
+	padding-bottom: 3rem;
+}
+.box-3{
+	padding-top: 3rem;
+	/* border: 2px solid red; */
+	/* padding-left: 2rem; */
+	/* border: 1px solid red; */
+}
+.row2{
+	padding-left: 4rem;
+	padding-right: 2rem;
+}
+.box-4{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	/* border: 1px solid red; */
+	/* border: 2px solid red; */
+}
+.box-3 p {
+	font-weight: 400;
+    font-size: 1.3rem;
+	font-family: 'Playfair Display', serif;
+	padding-left: 2rem;
+	margin-top: 4rem;
+	line-height: 1.5;
+}
+.box-4 img{
+	height: 18rem;
+	width: 16rem;
+	border-radius: 50%;
+}
+@media(max-width: 992px){
+	.box-3{
+		order: 2;
+	}
+	.box-4{
+		order: 1;
+	}
+}
+@media(max-width: 992px){
+	.box-3{
+		padding-top: 2rem;
+	}
+ 	.box-3 p{
+	padding: 0;
+}
+}
+@media (max-width: 1140px){
+	.box-1 p{
+		line-height: 1;
+		font-size: 2.8rem
+	}
+}
+/* footer */
+
+.footer{
+	background-color: black;
+	padding-top: 3rem;
+	padding-left: 6rem;
+	padding-bottom: 3rem;
+	font-size: 2rem;
+	font-family: 'Otomanopee One', sans-serif;
+
+	/* height: 3rem; */
+}
+.footer p{
+	font-family: 'Zen Loop', cursive;
+	color: white;
+}
+.fab{
+	padding: .6rem;
+	color: white;
+}
+@media(max-width:540px){
+	.footer{
+		padding-left: 3rem;
+	}
+}
